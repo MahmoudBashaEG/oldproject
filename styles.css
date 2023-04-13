@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    
+}
+header{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    box-shadow: black -4px -1px 5px 0px;
+    z-index: 1;
+}
+.header a{
+    text-decoration: none;
+    color: inherit;
+   
+}
+.header a:hover{
+    background-color: rgba(173, 173, 173, 0.945);
+}
+.aheader-left{
+    font-weight: bold;
+    line-height: 2;
+    padding: 5px 20px;
+    margin-top: 6px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    letter-spacing: 3px;
+    float: left;
+    font-size: 15px;
+    
+    opacity: .8;
+}
+.div_header_right{
+    margin-top: 17px ;
+    float: right;
+    margin-right: 15px;
+
+}
+.div_header_right a{
+    opacity: .8;
+    
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    padding: 12px 17px;
+    font-weight: bold;
+}
+.img1{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+#img1{
+    width: 100%;
+    height: auto;
+   
+}
+.img1 h1{
+    top: 540px;
+    position: absolute;
+    letter-spacing: 5px;
+    font-weight: normal;
+    opacity: 0.60;
+    padding: 20px;
+    font-size: 35px;
+    font-family: "Playfair Display";
+}
+.main{
+    position: relative;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 690px;
+    
+}
+.section-left{
+   width: 40%;
+   height: auto;
+    margin-top: 20px;
+    margin-right: 8%;
+    float: right;
+    text-align: center;
+    box-sizing: border-box;
+}
+.section-left h1{
+   font-weight: normal;
+    padding-bottom: 50px;
+    letter-spacing: 4px;
+    font-size:29px;
+    opacity: .9;
+    letter-spacing: 7px;
+    font-family: "Playfair Display";
+}
+.section-left h4{
+    letter-spacing: 5px;
+    word-spacing: 6px;
+    font-size: 14px;
+    opacity: .85;
+    margin-bottom: 30px;
+}
+#special{
+background-color: rgba(180, 172, 172, 0.178);
+text-align: center;
+padding: 4px;
+}
+
+.section-left #p1,#special{
+    text-align: left;
+    font-size: 18px;
+    line-height: 27px;
+    
+}
+.section-left #p2{
+    word-spacing: 1px;
+    text-align: left;
+    margin-top: 20px;
+    line-height: 27px;
+    font-size: 18px;
+    opacity: .6;
+}
+.section-right{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+.section-right img{
+    width: 80%;
+    height:auto;
+    opacity: 0.75;
+    margin-top: 15px;
+    margin-left: 70px;
+    border-radius: 4px;
+}
+
+
+.aside{
+    background-color: white;
+    box-sizing: border-box;
+    clear: both;
+    width: 100%;
+    height: 790px;
+    margin-top:105px;
+}
+.section2-right{
+    height: auto;
+    width: 47%;
+    float: left;
+    margin-top: 20px;
+}
+.section2-right h1{
+    font-weight: normal;
+    font-size: 37px;
+    margin-left: 260px;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+}
+.section2-right div{
+    margin-left: 100px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-top: 54px;
+}
+.section2-right h6{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0;
+    opacity: .6;
+}
+.section2-left {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.section2-left img{
+    opacity: .75;
+    border-radius: 4px;
+}
+.footer{
+    height: auto;
+    width: 100%;
+}
+.footer h1{
+    font-weight: normal;
+    margin-top: 146px;
+    margin-left: 100px;
+    margin-bottom: 58px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+.footer h4,p{
+    margin-top: 23px;
+    margin-left: 100px;
+    line-height:23px;
+}
+.footer h4{
+    color: #607d8b!important;
+    
+}
+.footer input{
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 53px;
+    padding-left: 10px;
+    margin-left: 100px;
+    margin-top: 16px;
+    display: block;
+}
+.footer button{
+    background-color:#f1f1f1;
+    margin-left: 100px;
+    margin-top: 28px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400px;
+    border: none;
+}
+.footer button:hover{
+    background-color:#8080808c;
+}
+.the-last{
+    background-color: #f1f1f1;
+    color: black;
+    width: auto;
+    height: auto;
+    padding: 50px 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+.the-last a{
+    color: black;
+}
+.the-last a:hover{
+    color: rgb(106, 165, 17);
+}
+.hr1{
+    width: 84%;
+    text-align: center;
+    margin-left: 100px;
+    border-top: 1px solid #eee;
+    margin-top: 1033px;
+}
+.hr2{
+    width: 84%;
+    text-align: center;
+    margin-left: 100px;
+    border-top: 1px solid #eee;
+    margin-top: 64px;
+}
